@@ -8,28 +8,30 @@
 		<meta name="viewport:" content="width=device,user-scalable-no">
 		<title>Hoja De Vida</title>
 	</head>
-	
-	<STYLE type="text/css">
-	BODY {text-align: center}
-	</STYLE>
-  
+	  
 	<body>
 		<header>
 		<img src="svg/logo.svg" alt="logo S N A M">
 		<br>
 		<h1><strong>Hoja De Vida</strong></h1>
+		<hr>
 		<br>
 		<h2><strong>Datos Personales</strong></h2>
-			<h3>Nombres: Stefan Nicolás</h3>
-			<h3>Apellidos: Aponte Murcia</h3>
-			<h3>Fecha de nacimiento: 30-julio-1992</h3>
-			<h3>Lugar de nacimiento: Bogota D.C.</h3>
-			<br>
+		<ul>
+			<li><h3>Nombres: Stefan Nicolás</h3></li>
+			<li><h3>Apellidos: Aponte Murcia</h3></li>
+			<li><h3>Fecha de nacimiento: 30-julio-1992</h3></li>
+			<li><h3>Lugar de nacimiento: Bogota D.C.</h3></li>
+		</ul>	
+		<br>
+		<hr>
 		</header>
 
 	<nav>
+		|<a href="index.html">Inicio</a>
 		|<a href="experiencia.html">Experiencia</a>
-		|<a href="index.html">Principal</a>|
+		|Educación|
+		<hr>
 		<br>
 	</nav>
 
@@ -37,7 +39,7 @@
 		<br>
 		<h2>Educación</h2>
 		<article>
-		<table align="center" border="1" cellpadding="10" cellspacing="0">
+		<table border="1" cellpadding="10" cellspacing="0">
 			<thead>
 				<tr>
 					<th>Año</th>
@@ -67,28 +69,31 @@
 				</tr>
 			</tbody>
 		</table>
+		<hr>
 		<br>
 		</article>
 
 		<article>
 		<h3>Agregar Estudios</h3>
-		<form action="" >
+		<form action="educacion.html" >
+		<fieldset>
+		<legend> <em> Estudios Adicionales </em> </legend>
 			<p>
-				<label for="recommend">Año: </label>
-					<select name="recommend">
-					<option value="1">2008</option>
-					<option value="1">2009</option>
-					<option value="1">2010</option>
-					<option value="1">2011</option>
-					<option value="1">2012</option>
-					<option value="1">2013</option>
-					<option value="1">2014</option>
-					<option value="1">2015</option>
-					<option value="1">2016</option>
-					<option value="1">2017</option>
-					<option value="1">2018</option>
-					<option value="1">2019</option>
-				</select>
+			<label for="recommend">Año: </label>
+				<select name="recommend">
+				<option value="1">2008</option>
+				<option value="1">2009</option>
+				<option value="1">2010</option>
+				<option value="1">2011</option>
+				<option value="1">2012</option>
+				<option value="1">2013</option>
+				<option value="1">2014</option>
+				<option value="1">2015</option>
+				<option value="1">2016</option>
+				<option value="1">2017</option>
+				<option value="1">2018</option>
+				<option value="1">2019</option>
+			</select>
 			</p>
 			<p>
 				<label for="Inst">Institución:</label>
@@ -101,8 +106,10 @@
 			<p>
 				<input type="submit" value="Enviar">
 			</p>
+		</fieldset>
 		</form>
 		</article>
+		<hr>
 	</section>
 
   <footer>
